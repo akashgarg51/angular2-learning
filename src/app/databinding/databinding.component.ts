@@ -12,4 +12,8 @@ export class DatabindingComponent{
     onTest() {
     return true;    
     }
+    
+    onCustomClicked(value: String){
+        alert(value)
+     }   
 }
