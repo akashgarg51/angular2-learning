@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
     template: `
       <h1>Root Component </h1>
       <app-databinding></app-databinding>
+<app-property-binding [result]="10"></app-property-binding>
       <app-other></app-other>
       <app-another>
            <div>
