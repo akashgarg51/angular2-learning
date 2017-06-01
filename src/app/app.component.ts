@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
       <app-other></app-other>
       <app-another></app-another>
      `,
-  styleUrls: ['./app.component.css']
+  styles: [`
+   h1 {
+    color: red;    
+}
+`]
 })
 export class AppComponent {
   title = 'app works!';
