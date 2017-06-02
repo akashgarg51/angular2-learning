@@ -30,5 +30,6 @@ import { Component } from '@angular/core';
 `]
 })
 export class AppComponent {
+    delete = false;
     title = 'app works!';
 }
