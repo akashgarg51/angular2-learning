@@ -4,6 +4,11 @@ import { Component } from '@angular/core';
     selector: 'app-root',
     template: `
       <h1>Root Component </h1>
+
+<app-lifecycle *ngIf="!delete"></app-lifecycle>
+<button (click)="delete = true">Click to Delete</button>
+<br>
+
       <app-databinding></app-databinding>
 
 
