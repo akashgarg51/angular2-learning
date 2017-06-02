@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
       <h1>Root Component </h1>
 
 <app-lifecycle *ngIf="!delete" [bindable]="boundValue">
-    <p>{{test}}</p>
+    <p #boundContent>{{test}}</p>
 </app-lifecycle>
 <button (click)="delete = true">Click to Delete</button>
 <button (click)="test = 'Changed value'">Click to Change Content</button>
